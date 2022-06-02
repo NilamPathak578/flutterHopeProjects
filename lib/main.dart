@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterhopeprojects/Views/home_page.dart';
+import 'package:flutterhopeprojects/Views/marquee.dart';
 import 'package:flutterhopeprojects/Views/table_page.dart';
 
 void main() {
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const Homepage(),
-      home: const ShowDataTable(),
+      //home: const ShowDataTable(),
+      home: const MarqueeExample(),
     );
   }
 }
