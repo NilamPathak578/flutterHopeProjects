@@ -37,19 +37,22 @@ class _SplashScreenState extends State<SplashScreen> {
                       image: AssetImage("assets/images/logo.jpg"))),
             ),
             const SizedBox(
-              height: 10.0,
+              height: 10.0, //
             ),
             const Text(
               "Welcome to Flutter Hope",
               style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w700),
             ),
             const SizedBox(
-              height: 10.0,
+              height: 30.0,
             ),
             const CircularProgressIndicator(
-              color: Colors.green,
-              strokeWidth: 5.0,
-            )
+              //value: 0.7,
+              //valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
+              backgroundColor: Colors.yellowAccent,
+              color: Colors.red,
+              strokeWidth: 8.0,
+            ),
           ],
         ),
       )),
