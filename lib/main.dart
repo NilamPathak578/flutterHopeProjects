@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutterhopeprojects/Views/crousel_slider.dart';
+
 import 'package:flutterhopeprojects/Views/home_page.dart';
 import 'package:flutterhopeprojects/Views/marquee.dart';
 import 'package:flutterhopeprojects/Views/splash_screen.dart';
@@ -23,7 +25,8 @@ class MyApp extends StatelessWidget {
       // home: const Homepage(),
       //home: const ShowDataTable(),
       //home: const MarqueeExample(),
-      home: const SplashScreen(),
+      // home: const SplashScreen(),
+      home: const CrouselPage(),
     );
   }
 }
