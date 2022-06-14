@@ -5,6 +5,7 @@ import 'package:flutterhopeprojects/Views/home_page.dart';
 import 'package:flutterhopeprojects/Views/marquee.dart';
 import 'package:flutterhopeprojects/Views/splash_screen.dart';
 import 'package:flutterhopeprojects/Views/table_page.dart';
+import 'package:flutterhopeprojects/Views/web_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
       //home: const ShowDataTable(),
       //home: const MarqueeExample(),
       // home: const SplashScreen(),
-      home: const CrouselPage(),
+      //home: const CrouselPage(),
+      home: const WebViewWidget(),
     );
   }
 }
