@@ -24,10 +24,11 @@ class _HomepageState extends State<Homepage> {
         centerTitle: true,
       ),
       body: Container(
+        padding: const EdgeInsets.symmetric(vertical: 8.0),
         height: double.infinity,
         width: double.infinity,
-        //child: row(),
-        child: column(),
+        child: row(),
+        //child: column(),
       ),
     );
   }
