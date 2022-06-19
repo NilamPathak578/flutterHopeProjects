@@ -23,12 +23,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home: const Homepage(),
+      home: const Homepage(),
       //home: const ShowDataTable(),
       //home: const MarqueeExample(),
       // home: const SplashScreen(),
       //home: const CrouselPage(),
-      home: const WebViewWidget(),
+      //home: const WebViewWidget(),
     );
   }
 }

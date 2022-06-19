@@ -1,6 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutterhopeprojects/Widgets/column_widget.dart';
 import 'package:flutterhopeprojects/Widgets/containerwidget.dart';
+import 'package:flutterhopeprojects/Widgets/row_widget.dart';
 
 import 'package:flutterhopeprojects/Widgets/textformfield_widget.dart';
 
@@ -17,14 +19,15 @@ class _HomepageState extends State<Homepage> {
     return Scaffold(
       appBar: AppBar(
         //title: const Text("TextFormField Example"),
-        title: const Text("Container Example"),
+        //title: const Text("Container Example"),
+        title: const Text("Row and Column Example"),
         centerTitle: true,
       ),
-      body: Column(
-        children: [
-          //TextFormFieldWidget(),
-          containerWidget(context),
-        ],
+      body: Container(
+        height: double.infinity,
+        width: double.infinity,
+        //child: row(),
+        child: column(),
       ),
     );
   }
