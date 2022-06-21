@@ -20,11 +20,14 @@ class _HomepageState extends State<Homepage> {
         title: const Text("Container Example"),
         centerTitle: true,
       ),
-      body: Column(
-        children: [
-          //TextFormFieldWidget(),
-          containerWidget(context),
-        ],
+      body: SafeArea(
+        child: Column(
+          children: [
+            //TextFormFieldWidget(),
+            //containerWidget(context),
+            Flexible(child: container(context)),
+          ],
+        ),
       ),
     );
   }
