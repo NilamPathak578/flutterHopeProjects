@@ -23,29 +23,34 @@ Widget containerWidget(BuildContext context) {
 }
 
 Widget container(BuildContext context) {
-  return Container(
-    //equal margin in all
-    //margin: const EdgeInsets.all(10),
+  return Center(
+    child: Container(
+      //equal margin in all
+      //margin: const EdgeInsets.all(10),
 
-    //symmetric margin
-    //margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 20),
+      //symmetric margin
+      //margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 20),
 
-    //margin on only one side
-    //  margin: const EdgeInsets.only(top: 20),
+      //margin on only one side
+      //  margin: const EdgeInsets.only(top: 20),
 
-    //different margin from all side
-    //margin: const EdgeInsets.fromLTRB(10, 30, 10, 20),
+      //different margin from all side
+      //margin: const EdgeInsets.fromLTRB(10, 30, 10, 20),
 
-    height: MediaQuery.of(context).size.height,
+      height: 200,
 
-    width: double.infinity,
-    decoration: const BoxDecoration(color: Colors.greenAccent),
-    child: const Padding(
-      padding: EdgeInsets.all(20.0),
-      child: Text(
-        "Padding Example",
-        style: TextStyle(
-            color: Colors.white, fontSize: 18.0, fontWeight: FontWeight.w700),
+      width: 200,
+      decoration: const BoxDecoration(color: Colors.greenAccent),
+      child: const Padding(
+//padding: EdgeInsets.all(10),
+//padding: EdgeInsets.symmetric(horizontal: 20,vertical: 30),
+        //padding: EdgeInsets.only(right: 20, bottom: 30),
+        padding: EdgeInsets.fromLTRB(10, 30, 20, 30),
+        child: Text(
+          "Padding Example",
+          style: TextStyle(
+              color: Colors.white, fontSize: 18.0, fontWeight: FontWeight.w700),
+        ),
       ),
     ),
   );
