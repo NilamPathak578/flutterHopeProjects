@@ -16,19 +16,27 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        //title: const Text("TextFormField Example"),
-        title: const Text("Container Example"),
+        backgroundColor: Colors.green,
+        //foregroundColor: Colors.yellowAccent,
+        automaticallyImplyLeading: false,
+        leading: const Icon(Icons.menu),
+        title: const Text("AppBar Example"),
         centerTitle: true,
+        actions: const [Icon(Icons.search), Icon(Icons.settings)],
+
+        // elevation: 6,
+        elevation: 0,
       ),
-      body: SafeArea(
-        child: Column(
-          children: [
-            //TextFormFieldWidget(),
-            //containerWidget(context),
-            Flexible(child: container(context)),
-          ],
-        ),
-      ),
+      drawer: const Drawer(),
+      // body: SafeArea(
+      //   child: Column(
+      //     children: [
+      //       //TextFormFieldWidget(),
+      //       //containerWidget(context),
+      //       Flexible(child: container(context)),
+      //     ],
+      //   ),
+      // ),
     );
   }
 }
