@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterhopeprojects/Widgets/end_drawer.dart';
 
 class RichTextWidget extends StatelessWidget {
   const RichTextWidget({Key? key}) : super(key: key);
@@ -10,6 +11,7 @@ class RichTextWidget extends StatelessWidget {
         title: const Text("RichText Example"),
         centerTitle: true,
       ),
+      endDrawer: endDrawer(context),
       body: Padding(
           padding: const EdgeInsets.all(12.0),
           child: RichText(
