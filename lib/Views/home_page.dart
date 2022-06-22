@@ -1,8 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutterhopeprojects/Views/rich_text.dart';
 import 'package:flutterhopeprojects/Widgets/containerwidget.dart';
-
-import 'package:flutterhopeprojects/Widgets/textformfield_widget.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({Key? key}) : super(key: key);
@@ -28,15 +27,15 @@ class _HomepageState extends State<Homepage> {
         elevation: 0,
       ),
       drawer: const Drawer(),
-      // body: SafeArea(
-      //   child: Column(
-      //     children: [
-      //       //TextFormFieldWidget(),
-      //       //containerWidget(context),
-      //       Flexible(child: container(context)),
-      //     ],
-      //   ),
-      // ),
+      body: SafeArea(
+        child: Column(
+          children: [
+            //TextFormFieldWidget(),
+            //containerWidget(context),
+            Flexible(child: container(context)),
+          ],
+        ),
+      ),
     );
   }
 }
