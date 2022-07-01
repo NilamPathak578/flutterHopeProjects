@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterhopeprojects/Views/home_page.dart';
+import 'package:flutterhopeprojects/Views/iconview.dart';
 import 'package:flutterhopeprojects/Views/image.dart';
 import 'package:flutterhopeprojects/Views/rich_text.dart';
 
@@ -21,7 +22,8 @@ class MyApp extends StatelessWidget {
       ),
       //home: const Homepage(),
       //home: const RichTextWidget(),
-      home: const ImagePage(),
+      //home: const ImagePage(),
+      home: const IconPage(),
     );
   }
 }
