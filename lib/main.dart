@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterhopeprojects/Views/date_picker.dart';
 import 'package:flutterhopeprojects/Views/home_page.dart';
 import 'package:flutterhopeprojects/Views/iconview.dart';
 import 'package:flutterhopeprojects/Views/image.dart';
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
       //home: const Homepage(),
       //home: const RichTextWidget(),
       //home: const ImagePage(),
-      home: const IconPage(),
+      //home: const IconPage(),
+      home: const DatePickerPage(),
     );
   }
 }
