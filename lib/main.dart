@@ -6,6 +6,7 @@ import 'package:flutterhopeprojects/Views/iconview.dart';
 import 'package:flutterhopeprojects/Views/image.dart';
 import 'package:flutterhopeprojects/Views/rich_text.dart';
 import 'package:flutterhopeprojects/Views/time_picker.dart';
+import 'package:flutterhopeprojects/Views/tooltip_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
       //home: const IconPage(),
       //home: const DatePickerPage(),
       //home: const TimePickerPage(),
-      home: const GridViewPage(),
+      //home: const GridViewPage(),
+      home: const ToolTipPage(),
     );
   }
 }
