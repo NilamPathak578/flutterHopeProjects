@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterhopeprojects/Views/bottom_sheet.dart';
 import 'package:flutterhopeprojects/Views/date_picker.dart';
 import 'package:flutterhopeprojects/Views/future_builder.dart';
 import 'package:flutterhopeprojects/Views/grid_view.dart';
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
       //home: const TimePickerPage(),
       //home: const GridViewPage(),
       //home: const ToolTipPage(),
-      home: const Splash(),
+      //home: const Splash(),
+      home: const BottomSheetExample(),
     );
   }
 }
