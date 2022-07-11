@@ -9,6 +9,7 @@ import 'package:flutterhopeprojects/Views/iconview.dart';
 import 'package:flutterhopeprojects/Views/image.dart';
 import 'package:flutterhopeprojects/Views/rich_text.dart';
 import 'package:flutterhopeprojects/Views/splash_screen.dart';
+import 'package:flutterhopeprojects/Views/stack_page.dart';
 import 'package:flutterhopeprojects/Views/time_picker.dart';
 import 'package:flutterhopeprojects/Views/tooltip_page.dart';
 
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
       //home: const ToolTipPage(),
       //home: const Splash(),
       //home: const BottomSheetExample(),
-      home: const FirstScreen(),
+      //home: const FirstScreen(),
+      home: const StackPage(),
     );
   }
 }
