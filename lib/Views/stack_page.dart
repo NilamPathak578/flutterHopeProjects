@@ -1,4 +1,3 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 class StackPage extends StatelessWidget {
@@ -13,6 +12,7 @@ class StackPage extends StatelessWidget {
       ),
       body: Stack(
         children: [
+        
           Center(
             child: Container(
               height: 200.0,
@@ -68,6 +68,7 @@ class StackPage extends StatelessWidget {
           // ),
         ],
       ),
+    
     );
   }
 }

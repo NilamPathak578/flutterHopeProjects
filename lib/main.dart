@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterhopeprojects/Views/bottom_sheet.dart';
 import 'package:flutterhopeprojects/Views/date_picker.dart';
 import 'package:flutterhopeprojects/Views/first_screen.dart';
+import 'package:flutterhopeprojects/Views/fitted_box.dart';
 import 'package:flutterhopeprojects/Views/future_builder.dart';
 import 'package:flutterhopeprojects/Views/grid_view.dart';
 import 'package:flutterhopeprojects/Views/home_page.dart';
@@ -40,7 +41,8 @@ class MyApp extends StatelessWidget {
       //home: const Splash(),
       //home: const BottomSheetExample(),
       //home: const FirstScreen(),
-      home: const StackPage(),
+      //home: const StackPage(),
+      home: const FittedBoxExample(),
     );
   }
 }
