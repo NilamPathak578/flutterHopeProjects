@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterhopeprojects/Views/home_page.dart';
+import 'package:flutterhopeprojects/Views/popup_dialog.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Homepage(),
+      //home: const Homepage(),
+      home: const PopupDialogExample(),
     );
   }
 }
