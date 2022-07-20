@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutterhopeprojects/Views/home_page.dart';
 import 'package:flutterhopeprojects/Views/popup_dialog.dart';
+import 'package:flutterhopeprojects/Views/wrap.dart';
+import 'package:flutterhopeprojects/cliprrect.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +22,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       //home: const Homepage(),
-      home: const PopupDialogExample(),
+      //home: const PopupDialogExample(),
+      //home: const WrapExample(),
+      home: const ClipRRectExample(),
     );
   }
 }
